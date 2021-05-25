@@ -1,0 +1,135 @@
+/*
+body {
+width: 90%;
+height: 100%;
+
+}
+*/
+h4{
+    text-align: center;
+    margin:0 0 0.5em;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    margin:0.5em;
+}
+#def{
+    display: none;
+}
+#open{
+    width:1em;
+    height:1em;
+}
+#visu_co {
+    width:100%;
+}
+.Panier,
+.box {
+    border: black thin solid;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    height:auto;
+    flex-wrap: wrap;
+}
+
+img.visu {
+
+    display: none;
+    height: auto;
+    width: 10em;
+
+
+}
+
+.datas_co{
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+.datas_co button{
+    display:none;
+    background:none;
+    height:4em;
+    margin: auto;
+}
+#next{
+    order:3;
+}
+#before{
+    order:1;
+}
+.datas_co ul {
+    display: flex;
+    flex-direction: row;
+    order:2;
+    list-style-type: none;
+    margin-left: -2em;
+}
+#slides {
+    overflow-x:hidden;
+    flex-grow: 1;
+}
+
+.slide {
+    display:none;
+    width:50%;
+    z-index: 2;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+.Panier{
+
+    min-height: 10em;
+    height: auto;
+}
+
+#bin {
+    height:10em;
+    width:10em;
+    display: inline-block;
+}
+
+.chronometre{
+    margin: auto ;
+    width: 300px;
+    text-align: center;
+
+}
+
+.tim{
+    margin: auto;
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding:5px 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: digital;
+    margin-bottom: 10px;
+
+
+}
+/*
+
+button{
+background: #3498db;
+color: #fff;
+width: 70px;
+border-radius: 5px;
+line-height: 1.5em;
+border: none
+}
+*/
+/*//Source : www.exelib.net*/
+
+
+
+
+

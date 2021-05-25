@@ -1,0 +1,15 @@
+/*	Extension MS	*/
+div#scDepotStack {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+  color: #ffffff;
+  z-index:99999;
+}
+div#scDepotStack a{
+  color: white;
+  text-decoration:none;
+}
+div#scDepotStack a:hover{
+  text-decoration:underline;
+}

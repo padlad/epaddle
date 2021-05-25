@@ -1,0 +1,4 @@
+bgcolor1=434e52
+bgcolor2=434e52
+playercolor=434e52
+buttoncolor=e0ecec
